@@ -12,4 +12,14 @@ public class StatisticsHelper
         }
         return min;
     }
+
+    public static double GetAverage(int[] values)
+    {
+        double sum = 0;
+        foreach (int n in values)
+        {
+            sum += n;
+        }
+        return sum / values.Length;
+    }
 }
