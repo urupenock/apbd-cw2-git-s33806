@@ -22,4 +22,9 @@ public class StatisticsHelper
         }
         return sum / values.Length;
     }
+
+    public static int CalculateMax(int[] values)
+    {
+        return values.Max();
+    }
 }
