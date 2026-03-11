@@ -6,3 +6,4 @@ int min = StatisticsHelper.GetMin(numbers);
 Console.WriteLine(min);
 if (numbers.Length == 0) Console.WriteLine("Error:No numbers found");
 Console.WriteLine("Average: " + StatisticsHelper.GetAverage(numbers));
+Console.WriteLine("Just checking how it works");
